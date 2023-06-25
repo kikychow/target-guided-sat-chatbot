@@ -1,6 +1,6 @@
 # https://imperial.eu.qualtrics.com/jfe/form/SV_6gtGIp4WoBpD6iq
 from transformers import BlenderbotTokenizer, BlenderbotForConditionalGeneration, pipeline
-from keyword_predictor.global_planning import GlobalPlanning
+from implementation.keyword_predictor.global_planning import GlobalPlanning
 
 import torch
 from itertools import chain

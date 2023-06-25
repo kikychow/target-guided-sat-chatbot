@@ -1,4 +1,4 @@
-from keyword_predictor.global_planning import GlobalPlanning
+from implementation.keyword_predictor.global_planning import GlobalPlanning
 import torch
 from itertools import chain
 import nltk
