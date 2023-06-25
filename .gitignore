@@ -1,7 +1,10 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
+/backend/implementation/keyword_predictor/keyword_prediction_dataset
+
 # dependencies
 /node_modules
+/frontend/node_modules
 /.pnp
 .pnp.js
 
@@ -183,4 +186,27 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
 
-.vector_cache
+.vector_cache./backend/.vector_cache/glove.6B.300d.txt
+./backend/.vector_cache/glove.6B.100d.txt
+./backend/.vector_cache/glove.6B.50d.txt
+./backend/.vector_cache/glove.6B.300d.txt.pt
+./backend/.vector_cache/glove.6B.200d.txt
+./backend/.vector_cache/glove.6B.zip
+./backend/models/model_gpt2/pytorch_model.bin
+./backend/models/model_blenderbot/pytorch_model.bin
+./backend/models/keyword_predictor_state_dict_model_8_10_1e-6.pt
+./backend/implementation/keyword_predictor/glove.6B.300d.txt
+./backend/implementation/keyword_predictor/.vector_cache/glove.6B.300d.txt
+./backend/implementation/keyword_predictor/.vector_cache/glove.6B.100d.txt
+./backend/implementation/keyword_predictor/.vector_cache/glove.6B.50d.txt
+./backend/implementation/keyword_predictor/.vector_cache/glove.6B.300d.txt.pt
+./backend/implementation/keyword_predictor/.vector_cache/glove.6B.200d.txt
+./backend/implementation/keyword_predictor/.vector_cache/glove.6B.zip
+./backend/implementation/keyword_predictor/conceptnet.en.pruned.graph
+./backend/implementation/keyword_predictor/conceptnet_graph.gpickle
+./backend/implementation/keyword_prediction_dataset/keyword_predictor_test_dataset.pickle
+./backend/implementation/keyword_prediction_dataset/keyword_predictor_train_dataset.pickle
+./backend/implementation/keyword_prediction_dataset/keyword_predictor_val_dataset.pickle
+./.git/objects/pack/tmp_pack_jiojiA
+./.git/objects/pack/pack-b5b75159cc27cb2ecb5ddf7dc891b67b4ee5666a.pack
+./.git/objects/pack/pack-65726adf11494b760af16a26fb6482c119292d58.pack
